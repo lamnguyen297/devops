@@ -12,7 +12,7 @@ public class WelcomeController {
 
     @RequestMapping("/")
     public String welcome(Model model) {
-        logger.info("Processing index request");
+        logger.info("Processing index request devops");
         model.addAttribute("course", "DevOps");
         return "index";
     }
